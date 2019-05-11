@@ -41,5 +41,5 @@ app.use(function(err, req, res, next) {
 module.exports = app;
 
 // port的部份
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 8080;
 app.listen(PORT);
